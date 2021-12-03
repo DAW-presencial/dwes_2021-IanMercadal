@@ -8,16 +8,21 @@ else{
         $error = $_FILES [$archivo]['error'];
         $name = $_FILES[$archivo]['name'];
         $tmp_name = $_FILES[$archivo]['tmp_name'];
+        $file_size = $_FILES[$archivo]['size'];
         $upload_dir = __DIR__."/documentos//" .$name;
 
         if($error == UPLOAD_ERR_OK){
             move_uploaded_file($tmp_name,$upload_dir);
+            echo "Tamaño de imagen: ";
+            var_dump($file_size);
         }
         else{
             echo "No ha ido bien, vuelve a intentarlo";
         }
     }
+    echo "Datos user: ";
     var_dump($_POST);
+    
 }
 ?>
 
