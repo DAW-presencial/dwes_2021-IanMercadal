@@ -24,6 +24,6 @@ Si todo ha ido bien, mostrará primero los datos de lo archivos, de otro modo mu
 Por último muestra los datos del formulario.
 
 Generará una serie de warnings y fail por tema de permiso pero se puede ver que muestra todo lo necesario, tanto de ficheros como de campos.
+HAY CAPTURAS EN EL DIRECTORIO ROOT DE ESTE REPO.
 
 http://imercadal.ifc33b.cifpfbmoll.eu/dwes_2021-IanMercadal/1eva_respuestas/5_Ejercicio/formulario.php
-
