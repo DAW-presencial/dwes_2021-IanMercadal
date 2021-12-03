@@ -13,8 +13,9 @@ else{
 
         if($error == UPLOAD_ERR_OK){
             move_uploaded_file($tmp_name,$upload_dir);
-            echo "Tamaño de imagen: ";
-            var_dump($file_size);
+            echo "Nombre y tamaño de fichero en bytes: ";
+            echo $name . " " . $file_size;
+            echo "<br>";
         }
         else{
             echo "No ha ido bien, vuelve a intentarlo";
