@@ -1,4 +1,5 @@
 # Respuestas 
+Se pueden encontrar aquí y en la carpeta.
 
 ## 4 ejercicio
 
@@ -10,7 +11,9 @@ al objeto instanciado y no a la clase padre.
 
 ### B
 
-A pesar de ser de la clase padre, al utilizar los métodos mágicos accedemos a ellos. Durante el ejercicio
+A pesar de ser de la clase padre, al utilizar los métodos mágicos accedemos a ellos. Durante el ejercicio muestro por pantalla como suceden estos comportamientos.
+
+[enlace en línea](http://www.limni.net)	
 
 ## 5 ejercicio 
 
@@ -21,3 +24,9 @@ Si los campos están completos, obten las propiedades name, error, size y tmp_na
 Si todo ha ido bien, mostrará primero los datos de lo archivos, de otro modo muestra error.
 
 Por último muestra los datos del formulario.
+
+Generará una serie de warnings y fail por tema de permiso pero se puede ver que muestra todo lo necesario, tanto de ficheros como de campos.
+
+http://imercadal.ifc33b.cifpfbmoll.eu/dwes_2021-IanMercadal/1eva_respuestas/5_Ejercicio/formulario.php
+
+[enlace en línea](http://www.limni.net)	
