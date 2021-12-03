@@ -11,7 +11,7 @@ al objeto instanciado y no a la clase padre.
 
 ### B
 
-A pesar de ser de la clase padre, al utilizar los métodos mágicos accedemos a ellos.
+A pesar de ser de la clase padre, al utilizar los métodos mágicos accedemos a ellos. Durante el ejercicio muestro por pantalla como suceden estos comportamientos.
 
 ## 5 ejercicio 
 
