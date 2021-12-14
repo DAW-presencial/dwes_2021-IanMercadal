@@ -5,8 +5,8 @@ class Database{
 
     // El usuario actualmente es el de Brais debido a que yo todavía no tengo
     private $host = 'g1.ifc33b.cifpfbmoll.eu';
-    private $db_name = 'bvirlan_db';
-    private $username = 'bvirlan_usr';
+    private $db_name = 'imercadal_db';
+    private $username = 'imercadal';
     private $password = 'abc123.';
 
     // Conectar
