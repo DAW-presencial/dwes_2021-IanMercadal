@@ -33,10 +33,10 @@
                 $stmt = $conn->prepare($query);
                 $stmt->execute();
         
-                // Esta variable mostrará el número de filas de la bbdd
+                // Esta variable mostrara el numero de filas de la bbdd
                 $num = $stmt->rowCount();
         
-                // Mientras tengamos filas, las mostrará
+                // Mientras tengamos filas, las mostrara
                 if($num > 0){
                     echo "<ul>";
                     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
