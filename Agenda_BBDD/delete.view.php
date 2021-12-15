@@ -14,7 +14,7 @@ if ($_POST) {
         $stmt->execute();
 
         echo "Usuario eliminado correctamente";
-    } catch (PDOException) {
+    } catch (PDOException $e) {
         echo "Algo no ha salido bien";
     }
 }

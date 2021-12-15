@@ -20,7 +20,7 @@ if ($_POST) {
         $stmt->execute();
 
         echo "Usuario actualizado correctamente";
-    } catch (PDOException) {
+    } catch (PDOException $e) {
         echo "Algo no ha salido bien";
     }
 }

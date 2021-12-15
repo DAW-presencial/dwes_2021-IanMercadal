@@ -46,7 +46,7 @@
                     echo "</ul>";
                 }
             }
-            catch(PDOException) {
+            catch(PDOException $e) {
                 echo "No hay resultados";
             }
             ?>
